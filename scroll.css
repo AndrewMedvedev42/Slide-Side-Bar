@@ -1,0 +1,70 @@
+body{
+    margin:0;
+}
+
+#navbar{
+
+    margin-top: 0;
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: rgb(81, 81, 141);
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    font-family: Courier;
+;
+}
+
+#navbar ul {
+
+    background: rgb(49, 44, 44);
+    height: 75%;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 25px;
+}
+
+#navbar li {
+    background: rgb(139, 139, 233);
+    list-style:none;
+    position: relative;
+    width: 100%;
+    font-family: Monaco;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#navbar li:hover{
+    transition: 0.5s;
+    background: rgb(198, 198, 255);
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main{
+    margin-left: 330px;
+}
+
+.pop{
+    border-radius: 25px;
+    background: rgb(139, 139, 233);
+    padding: 20px;
+    margin:20px;
+}
+
+p, a{
+    font-size: 16px;
+    font-family: Verdana;
+}
